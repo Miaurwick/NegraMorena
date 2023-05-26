@@ -310,6 +310,7 @@ i {
 @media screen and (max-height: 660px){
 	.main--formulario--contacto-c{
 		align-items: flex-start;
+    height: calc(100vh + 80px);
 	}
 }
 /* /Media Query Contacto */
