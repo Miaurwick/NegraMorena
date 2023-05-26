@@ -1,13 +1,16 @@
+/* MILKYWAY */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Rubik", sans-serif;
 }
-/* Index */
+/* /MILKYWAY */
 
+
+
+/* MILKYWAY */
 /* Header */
-
 .header--nav {
   display: flex;
   justify-content: center;
@@ -28,7 +31,6 @@
   padding: 10px;
 }
 
-
 .header--nav__icoNav {
   visibility: hidden;
 }
@@ -37,8 +39,12 @@
   transition: 200ms;
 }
 /* /Header */
+/* /MILKYWAY */
 
-/* Main */
+
+
+/* MILKYWAY */
+/* Main*/
 body {
   background-image: linear-gradient(
     180deg,
@@ -50,117 +56,46 @@ body {
     #c58bc0 83.33%,
     #b283b6 100%
   );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: "Rubik", sans-serif;
 }
 /* /Main */
-
-/*  /Index */
-
-/* Contactos  */
-
-.divisor2 {
-  display: flex;
-  justify-content: center;
-  padding-top: 179px;
-}
-
-h1 {
-  color: black;
-  font-size: 45px;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
+/* /MILKYWAY */
 
 
-@keyframes slide {
-  0% {
-    margin-left: 0%;
-  }
-  20% {
-    margin-left: 0%;
-  }
 
-  25% {
-    margin-left: -100%;
-  }
-  45% {
-    margin-left: -100%;
-  }
-
-  50% {
-    margin-left: -200%;
-  }
-  70% {
-    margin-left: -200%;
-  }
-
-  75% {
-    margin-left: -300%;
-  }
-  100% {
-    margin-left: -300%;
-  }
-}
-
-/* /Contactos */
-.menu li a {
-  padding: 10px;
-}
-.menu li a:hover {
-  color: pink;
-  background-color: black;
-  background-size: 400px;
-  border-radius: 6px;
-}
-
-.parrafo {
-  text-align: center;
-  line-height: 1.5rem;
-  margin: 20px;
-  font-size: 1.1rem;
-}
-
+/* MILKYWAY */
 /* Footer */
-footer {
+.footer {
   padding: 20px;
   background-color: #010051;
   margin-top: auto;
+  border: none;
 }
 
-footer p {
-  display: inline-block;
-  position: relative;
-  bottom: 8px;
-  margin-left: 10px;
+.footer--contenedor {
+  margin: 0px;
+}
+
+.footer--copyright .footer--copyright__texto  {
   color: violet;
 }
 
-.instagram {
-  display: inline-flex;
-  float: right;
-}
-
-.pinterest {
-  display: inline-flex;
-  float: right;
-  margin-right: 1rem;
-}
-
-.correo {
-  display: inline-flex;
-  float: right;
-  margin-right: 1rem;
+.footer .footer--ico {
+  margin: 0;
 }
 
 i {
   font-size: 27px;
 }
 /* /Footer */
+/* /MILKYWAY */
 
-/*  Productos */
+
+
+/* Pagina Productos */
+/* Main */
 .productos-img {
   justify-content: center;
   padding: 30px;
@@ -196,146 +131,139 @@ i {
 .img-div img:hover {
   transform: scale(1.1);
 }
-/* /Productos */
+/* /Main */
+/* /PaginaProductos */
 
-/* Novedades */
+
+
+/* Pagina Novedades */
+/* Main */
 .novedad {
   color: black;
   margin-top: 20px;
   margin-left: 30px;
 }
-/* /Novedades */
+/* /Main */
+/* /Pagina Novedades */
 
-/* DUDOSO*/
-.formulario {
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 400px;
-  background: white;
-  border-radius: 10px;
+
+
+
+/* Pagina Contacto */
+/* Main Contacto */
+.main--titulo-c {
+  display: flex;
+  justify-content: center;
 }
 
-.formulario h1 {
-  text-align: center;
-  padding: 0 0 20px 0;
-  border-bottom: 1px solid silver;
+.main--texto-c, .main--texto-correo-c, .main--texto-numero-c, .main--texto-gracias-c {
+  display: flex;
+  margin: 10px 25px
 }
 
-.formulario form {
-  padding: 0 40px;
-  box-sizing: border-box;
+.main--btn-c    {
+    display: inline-block;
+    padding: 14px 30px;
+    color: #243342;
+    letter-spacing: 1.2px;
+    border: 1px solid #243342;
+    border-radius: 7px;
+    margin-right: 20px;
+    transition: 0.15s ease-in-out;
+    color: white;
+    background: #243342;
+    display: inline-block;
+}
+.main--btn-c:hover{
+	cursor: pointer;
 }
 
-form .username {
+.main--formulario--contacto-c{
+	position: relative;
+	top: 60px;
+	height: calc(100vh + 30px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: auto;
+	padding: 20px;
+}
+
+.form{
+	width: 40%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	
+}
+.form h1{
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+}
+.form form{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.flex-rev {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 10px;
+		width: 100%;
+}
+
+.flex-rev input, .flex-rev textarea {
+    border: none;
+    background-color: white;
+    padding: 12px 10px;
+    font-size: 16px;
+    resize: none;
+    margin-top: 7px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    color: #243342;
+    outline-color: purple;
+    outline-width: thin;
+}
+.flex-rev textarea{
+	height: 150px;
+}
+/* /Main Contacto */
+/* /Pagina Contacto */
+
+/* Pagina Quienes */
+/* Main */
+.main--texto-q{
+  display: flex;
+  margin: 10px 25px
+}
+.main--img-q {
   position: relative;
-  border-bottom: 2px solid #adadad;
-  margin: 30px 0;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
 }
-
-.username input {
+.main--img-q .foto-central{
+  display: flex;
   width: 100%;
-  padding: 0 5px;
-  height: 40px;
-  font-size: 16 px;
-  border: none;
-  background: none;
-  outline: none;
-  transition: 0.5s;
+  height: 200px;
+  background-size: cover;
+  margin: 0 auto;
 }
-
-.username label {
+.quienes{
   position: absolute;
   top: 50%;
-  left: 5px;
-  color: #adadad;
-  transform: translateY(-50%);
-  font-size: 16px;
-  pointer-events: none;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: violet;
 }
+/* /Main */
+/* /Pagina Quienes */
 
-.username span::before {
-  content: "";
-  position: absolute;
-  top: 40px;
-  left: 0;
-  width: 0%;
-  height: 2px;
-  background: #6c3483;
-  transition: 0.5s;
-}
-
-.username input:focus ~ label,
-.username input:focus ~ label {
-  top: -5px;
-  color: #6c3483;
-}
-
-.username input:focus ~ span::before,
-.username input:focus ~ span::before {
-  width: 100%;
-}
-
-.recordar {
-  margin: -5px 0 20px 5px;
-  color: blue;
-  cursor: pointer;
-}
-
-.recordar:hover {
-  text-decoration: underline;
-}
-
-input[type="submit"] {
-  width: 100%;
-  height: 50px;
-  border: 1px solid;
-  background-color: #6c3483;
-  border-radius: 25px;
-  font-size: 18px;
-  color: white;
-  cursor: pointer;
-  outline: none;
-}
-
-.btn input[type="submit"] {
-  position: relative;
-  top: -20px;
-  width: 100%;
-  height: 50px;
-  border: 1px solid;
-  background-color: #6c3483;
-  border-radius: 25px;
-  font-size: 18px;
-  color: white;
-  cursor: pointer;
-  outline: none;
-}
-
-input[type="submit"]:hover {
-  border-color: black;
-  transition: 0.5s;
-}
-
-.registrarse {
-  margin: 30px 0;
-  text-align: center;
-  font-size: 16px;
-  color: black;
-}
-
-.registrarse a {
-  color: blue;
-  text-decoration: none;
-}
-
-.registrarse a:hover {
-  text-decoration: underline;
-}
-/* DUDOSO */
-
-
+/* MILKYWAY */
 /* Media Query */
 @media screen and (max-width: 991px) {
   .nav {
@@ -359,26 +287,29 @@ input[type="submit"]:hover {
     padding-top: 0px;
   }
 
-  .nav--carrito {
-    display: flex;
-    position: absolute;
-    right: 125px;
-    top: 2px;
-    visibility: visible;
-  }
-
-  .nav--img__carrito {
-    display: flex;
-    visibility: hidden;
-    width: 0;
-    height: 0;
-  }
-  
-
   .header--nav{
     display: inline-block;
-    
+
   }
 }
 /* /Media Query */
+/* /MILKYWAY */
 
+
+/* Media Query Contacto */
+@media screen and (max-width: 900px){
+	.main--formulario--contacto-c{
+		padding: 10px 0 0;
+		display: block;
+	}
+	.form{
+		width: 100%;
+	}
+}
+
+@media screen and (max-height: 660px){
+	.main--formulario--contacto-c{
+		align-items: flex-start;
+	}
+}
+/* /Media Query Contacto */
