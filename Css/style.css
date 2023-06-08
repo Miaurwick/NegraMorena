@@ -1,221 +1,135 @@
-/* MILKYWAY */
+/* MYLKYWAY */
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
-  font-family: "Rubik", sans-serif;
-}
+  font-family: "Rubik", sans-serif; }
+
 /* /MILKYWAY */
-
-
-
-/* MILKYWAY */
-/* Header */
-.header--nav {
-  display: flex;
-  justify-content: center;
-}
-
-.header--nav ul a:hover{
-  padding: 6px;
-  color: rgb(228, 12, 228)  ;
-}
-
-.header--nav__icoNav {
-  visibility: hidden;
-}
-
-.header--div {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-}
-
-.header--nav__icoNav {
-  visibility: hidden;
-}
-
-.header--nav__menuH {
-  transition: 200ms;
-}
-/* /Header */
-/* /MILKYWAY */
-
-
-
-/* MILKYWAY */
-/* Main*/
+/* Body*/
 body {
-  background-image: linear-gradient(
-    180deg,
-    #ffb8eb 0,
-    #ffafe6 16.67%,
-    #ffa7df 33.33%,
-    #f29dd5 50%,
-    #db93ca 66.67%,
-    #c58bc0 83.33%,
-    #b283b6 100%
-  );
+  background-image: linear-gradient(180deg, #ffb8eb 0, #ffafe6 16.67%, #ffa7df 33.33%, #f29dd5 50%, #db93ca 66.67%, #c58bc0 83.33%, #b283b6 100%);
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-family: "Rubik", sans-serif;
-}
-/* /Main */
-/* /MILKYWAY */
+  background-attachment: fixed; }
 
+/* /Body */
+/* Header */
+header .header--div {
+  display: flex;
+  justify-content: center;
+  padding: 10px; }
 
+header .header--nav__icoNav {
+  display: flex;
+  justify-content: center;
+  visibility: hidden; }
 
-/* MILKYWAY */
+header .header--menu__menuH {
+  transition: 200ms; }
+
+header .header--nav {
+  display: flex;
+  justify-content: center; }
+  header .header--nav ul a:hover {
+    padding: 6px;
+    color: #e40ce4; }
+
+/* /Header */
 /* Footer */
-.footer {
+footer {
   padding: 20px;
   background-color: #010051;
   margin-top: auto;
-  border: none;
-}
+  border: none; }
+  footer .footer--contenedor {
+    margin: 0px; }
+  footer .footer--copyright .footer--copyright__texto {
+    color: violet; }
+  footer .footer--ico {
+    margin: 0px; }
+  footer i {
+    font-size: 27px; }
 
-.footer--contenedor {
-  margin: 0px;
-}
-
-.footer--copyright .footer--copyright__texto  {
-  color: violet;
-}
-
-.footer .footer--ico {
-  margin: 0;
-}
-
-i {
-  font-size: 27px;
-}
 /* /Footer */
-/* /MILKYWAY */
-
-
-
-/* Pagina Productos */
+/* Pagina Productos*/
 /* Main */
-.productos-img {
+main .productos-img {
   justify-content: center;
   padding: 30px;
   margin: 30px;
   display: flex;
-  flex-wrap: wrap;
-}
+  flex-wrap: wrap; }
+  main .productos-img .img-div img {
+    margin: 20px;
+    border-radius: 15px;
+    transition: transform 0.2s; }
+    main .productos-img .img-div img:hover {
+      transform: scale(1.1); }
+  main .productos-img .img-div p {
+    display: flex;
+    padding-left: 20px; }
+  main .productos-img .nombre-producto {
+    font-size: 20px;
+    font-weight: 400px;
+    margin: 0px;
+    padding: 0px; }
+  main .productos-img .precio-producto {
+    color: #010051;
+    font-size: 30px;
+    margin: 5px; }
 
-.img-div img {
-  margin: 20px;
-  border-radius: 15px;
-  transition: transform 0.2s;
-}
-
-.img-div p {
-  display: flex;
-  padding-left: 20px;
-}
-
-.nombre-producto {
-  font-size: 20px;
-  font-weight: 400px;
-  margin: 0;
-  padding: 0;
-}
-
-.precio-producto {
-  color: #010051;
-  font-size: 30px;
-  margin: 5px;
-}
-
-.img-div img:hover {
-  transform: scale(1.1);
-}
 /* /Main */
-/* /PaginaProductos */
-
-
-
-/* Pagina Novedades */
-/* Main */
-.novedad {
+/* /Pagina /Productos*/
+/* Pagina Novedades*/
+/* Main Novedades */
+main .novedad {
   color: black;
   margin-top: 20px;
-  margin-left: 30px;
-}
-/* /Main */
-/* /Pagina Novedades */
+  margin-left: 30px; }
 
-
-
-
+/* /Main Novedades */
+/* /Pagina Novedades*/
 /* Pagina Contacto */
 /* Main Contacto */
-.main--titulo-c {
+main .main--titulo-c {
   display: flex;
+  justify-content: center; }
+
+main .main--texto-c, main .main--texto-correo-c, main .main--texto-numero-c, main .main--texto-gracias-c {
+  display: flex;
+  margin: 10px 25px; }
+
+main .main--formulario--contacto-c {
+  position: relative;
+  top: 10px;
+  height: calc(100vh + 30px);
+  display: flex;
+  align-items: center;
   justify-content: center;
-}
-
-.main--texto-c, .main--texto-correo-c, .main--texto-numero-c, .main--texto-gracias-c {
-  display: flex;
-  margin: 10px 25px
-}
-
-.main--btn-c    {
-    display: inline-block;
-    padding: 14px 30px;
-    color: #243342;
-    letter-spacing: 1.2px;
-    border: 1px solid #243342;
-    border-radius: 7px;
-    margin-right: 20px;
-    transition: 0.15s ease-in-out;
-    color: white;
-    background: #243342;
-    display: inline-block;
-}
-.main--btn-c:hover{
-	cursor: pointer;
-}
-
-.main--formulario--contacto-c{
-	position: relative;
-	top: 60px;
-	height: calc(100vh + 30px);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	overflow: auto;
-	padding: 20px;
-}
-
-.form{
-	width: 40%;
-	padding: 20px;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	
-}
-.form h1{
-	text-align: center;
-	margin-bottom: 20px;
-	width: 100%;
-}
-.form form{
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-}
-.flex-rev {
+  overflow: auto;
+  padding: 20px; }
+  main .main--formulario--contacto-c .form {
+    width: 40%;
+    padding: 20px;
     display: flex;
-    flex-direction: column-reverse;
-    margin-bottom: 10px;
-		width: 100%;
-}
+    flex-direction: column;
+    align-items: flex-end; }
+    main .main--formulario--contacto-c .form form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end; }
+    main .main--formulario--contacto-c .form h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      width: 100%; }
 
-.flex-rev input, .flex-rev textarea {
+main .flex-rev {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 10px;
+  width: 100%; }
+  main .flex-rev input, main .flex-rev textarea {
     border: none;
     background-color: white;
     padding: 12px 10px;
@@ -226,91 +140,50 @@ i {
     border-radius: 5px;
     color: #243342;
     outline-color: purple;
-    outline-width: thin;
-}
-.flex-rev textarea{
-	height: 150px;
-}
+    outline-width: thin; }
+  main .flex-rev textarea {
+    height: 150px; }
+
+main .main--btn-c {
+  display: inline-block;
+  padding: 14px 30px;
+  color: #243342;
+  letter-spacing: 1.2px;
+  border: 1px solid #243342;
+  border-radius: 7px;
+  margin-right: 20px;
+  transition: 0.15s ease-in-out;
+  color: white;
+  background: #243342;
+  display: inline-block; }
+  main .main--btn-c:hover {
+    cursor: pointer; }
+
 /* /Main Contacto */
 /* /Pagina Contacto */
-
 /* Pagina Quienes */
 /* Main */
-.main--texto-q{
-  display: flex;
-  margin: 10px 25px
-}
-.main--img-q {
+main .main--img-q {
   position: relative;
-    display: inline-block;
-    text-align: center;
+  display: inline-block;
+  text-align: center;
+  width: 100%; }
+  main .main--img-q .foto-central {
+    display: flex;
     width: 100%;
-}
-.main--img-q .foto-central{
+    height: 200px;
+    background-size: cover;
+    margin: 0px auto; }
+  main .main--img-q .quienes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: violet; }
+
+main .main--texto-q {
   display: flex;
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-  margin: 0 auto;
-}
-.quienes{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: violet;
-}
+  margin: 10px 25px; }
+
 /* /Main */
 /* /Pagina Quienes */
-
-/* MILKYWAY */
-/* Media Query */
-@media screen and (max-width: 991px) {
-  .nav {
-    margin-top: 15px;
-  }
-
-  .header--nav__icoNav {
-    visibility: visible;
-  }
-
-  .header--img__superior {
-    visibility: hidden;
-  }
-
-  .header--div {
-    padding: 0;
-    height: 2px;
-  }
-
-  .nav {
-    padding-top: 0px;
-  }
-
-  .header--nav{
-    display: inline-block;
-
-  }
-}
-/* /Media Query */
-/* /MILKYWAY */
-
-
-/* Media Query Contacto */
-@media screen and (max-width: 900px){
-	.main--formulario--contacto-c{
-		padding: 10px 0 0;
-		display: block;
-	}
-	.form{
-		width: 100%;
-	}
-}
-
-@media screen and (max-height: 660px){
-	.main--formulario--contacto-c{
-		align-items: flex-start;
-    height: calc(100vh + 80px);
-	}
-}
-/* /Media Query Contacto */
