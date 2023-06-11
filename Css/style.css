@@ -35,6 +35,17 @@ header .header--nav {
     color: #e40ce4; }
 
 /* /Header */
+/* Main */
+main .parrafo {
+  margin-top: 30px;
+  margin-left: 30px; }
+  main .parrafo .btn {
+    margin-left: 10px;
+    background-color: #010051;
+    border: none;
+    color: violet; }
+
+/* /Main */
 /* Footer */
 footer {
   padding: 20px;
