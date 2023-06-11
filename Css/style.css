@@ -183,7 +183,9 @@ main .main--img-q {
 
 main .main--texto-q {
   display: flex;
-  margin: 10px 25px; }
+  margin: 10px 25px;
+  padding-top: 50px;
+  padding-bottom: 200px; }
 
 /* /Main */
 /* /Pagina Quienes */
