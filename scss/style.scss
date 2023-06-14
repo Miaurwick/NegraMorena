@@ -30,6 +30,10 @@ body {
 
 /* Header */
 header {
+  .contenerdor{
+    display: $d;
+    justify-content: center;
+  }
   .header--div{
     display: $d;
     justify-content: center;
@@ -47,9 +51,9 @@ header {
   }
 
   .header--nav {
-    display: $d;
-    justify-content: center;
      ul {
+      display: flex;
+      justify-content: center;
        a:hover{
         padding: 6px;
         color: rgb(228, 12, 228);

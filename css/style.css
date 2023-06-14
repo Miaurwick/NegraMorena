@@ -14,6 +14,10 @@ body {
 
 /* /Body */
 /* Header */
+header .contenerdor {
+  display: flex;
+  justify-content: center; }
+
 header .header--div {
   display: flex;
   justify-content: center;
@@ -27,7 +31,7 @@ header .header--nav__icoNav {
 header .header--menu__menuH {
   transition: 200ms; }
 
-header .header--nav {
+header .header--nav ul {
   display: flex;
   justify-content: center; }
   header .header--nav ul a:hover {
