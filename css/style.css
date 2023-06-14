@@ -61,7 +61,10 @@ footer {
   footer .footer--copyright .footer--copyright__texto {
     color: violet; }
   footer .footer--ico {
-    margin: 0px; }
+    margin: 0px;
+    display: flex;
+    position: relative;
+    top: -25px; }
   footer i {
     font-size: 27px; }
 

@@ -97,6 +97,9 @@ footer {
 
   .footer--ico {
     margin: $mar;
+    display: $d;
+    position: relative;
+    top: -25px;
   }
 
   i {
