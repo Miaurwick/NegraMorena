@@ -188,7 +188,7 @@ main .main--img-q {
   width: 100%; }
   main .main--img-q .foto-central {
     display: flex;
-    width: 100%;
+    width: 83%;
     height: 200px;
     background-size: cover;
     margin: 0px auto; }
