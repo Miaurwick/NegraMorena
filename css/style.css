@@ -207,3 +207,12 @@ main .main--texto-q {
 
 /* /Main */
 /* /Pagina Quienes */
+/* Media Query contacto */
+@media screen and (max-width: 390px) {
+  main .main--formulario--contacto-c .form {
+    display: flex;
+    width: 70%; }
+  main .main--formulario--contacto-c .main--btn-c {
+    margin: 0px auto; } }
+
+/* /Media Query contacto */
