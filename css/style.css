@@ -226,6 +226,8 @@ main .main--texto-q {
     display: flex;
     width: 70%; }
   main .main--formulario--contacto-c .main--btn-c {
-    margin: 0px auto; } }
+    margin: 0px auto; }
+  .footer--ico {
+    padding-left: 61%; } }
 
 /* /Media Query contacto */
