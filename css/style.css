@@ -221,6 +221,15 @@ main .main--texto-q {
   main .main--formulario--contacto-c .main--btn-c {
     margin: 0px auto; } }
 
+@media screen and (max-width: 375px) {
+  main .main--formulario--contacto-c .form {
+    display: flex;
+    width: 70%; }
+  main .main--formulario--contacto-c .main--btn-c {
+    margin: 0px auto; }
+  .footer--ico {
+    padding-left: 61%; } }
+
 @media screen and (max-width: 360px) {
   main .main--formulario--contacto-c .form {
     display: flex;
