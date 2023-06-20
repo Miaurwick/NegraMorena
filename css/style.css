@@ -41,9 +41,10 @@ header .header--nav ul {
 /* /Header */
 /* Main */
 main .parrafo {
-  margin-top: 30px;
-  margin-left: 30px; }
+  margin: 30px;
+  letter-spacing: 1,4px; }
   main .parrafo .btn {
+    margin-top: 15px;
     margin-left: 10px;
     background-color: #010051;
     border: none;
@@ -57,15 +58,20 @@ footer {
   margin-top: auto;
   border: none; }
   footer .footer--contenedor {
-    margin: 0px; }
+    margin: 0px;
+    display: d; }
   footer .footer--copyright .footer--copyright__texto {
     color: violet; }
   footer .footer--ico {
     margin: 0px;
     display: flex;
-    position: relative;
-    top: -25px; }
-  footer i {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center; }
+  footer .footer--ico
+i {
     font-size: 27px; }
 
 /* /Footer */

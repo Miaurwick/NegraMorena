@@ -66,9 +66,10 @@ header {
 /* Main */
 main{
   .parrafo{
-    margin-top: 30px;
-    margin-left: 30px;
+    margin: 30px;
+    letter-spacing: 1,4px;
       .btn{
+        margin-top: 15px;
         margin-left: 10px;
         background-color: #010051;
         border: none;
@@ -87,6 +88,7 @@ footer {
   border: none;
   .footer--contenedor {
     margin: $mar;
+    display: d;
   }
 
   .footer--copyright {
@@ -98,9 +100,15 @@ footer {
   .footer--ico {
     margin: $mar;
     display: $d;
-    position: relative;
-    top: -25px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+
   }
+
+  .footer--ico
 
   i {
     font-size: 27px;
