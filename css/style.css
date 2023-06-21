@@ -221,7 +221,7 @@ main .main--texto-q {
   main .main--formulario--contacto-c .main--btn-c {
     margin: 0px auto; } }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 378px) {
   main .main--formulario--contacto-c .form {
     display: flex;
     width: 70%; }
