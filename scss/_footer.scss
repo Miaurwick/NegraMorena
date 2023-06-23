@@ -1,0 +1,33 @@
+footer {
+  padding: 20px;
+  background-color: $foot;
+  margin-top: auto;
+  border: none;
+  .footer--contenedor {
+    margin: $mar;
+    display: d;
+  }
+
+  .footer--copyright {
+    .footer--copyright__texto {
+      color: violet;
+    }
+  }
+
+  .footer--ico {
+    margin: $mar;
+    display: $d;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+
+  }
+
+  .footer--ico
+
+  i {
+    font-size: 27px;
+  }
+}

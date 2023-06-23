@@ -1,0 +1,32 @@
+header {
+  .contenerdor{
+    display: $d;
+    justify-content: center;
+  }
+  .header--div{
+    display: $d;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .header--nav__icoNav {
+    display: $d;
+    justify-content: center;
+    visibility: hidden;
+  }
+
+  .header--menu__menuH {
+    transition: 200ms;
+  }
+
+  .header--nav {
+     ul {
+      display: flex;
+      justify-content: center;
+       a:hover{
+        padding: 6px;
+        color: rgb(228, 12, 228);
+       }
+     }
+  }
+}
