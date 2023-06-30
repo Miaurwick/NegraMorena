@@ -24,9 +24,15 @@ footer {
     justify-items: center;
 
   }
+  
+  .footer--ico {
+    margin: $mar;
+    display: $d;
+    position: relative;
+    top: -25px;
+  }
 
-  .footer--ico
-
+  
   i {
     font-size: 27px;
   }
