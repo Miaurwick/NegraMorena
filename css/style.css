@@ -193,8 +193,12 @@ footer {
     justify-content: space-around;
     align-items: center;
     justify-items: center; }
-  footer .footer--ico
-i {
+  footer .footer--ico {
+    margin: 0px;
+    display: flex;
+    position: relative;
+    top: -25px; }
+  footer i {
     font-size: 27px; }
 
 /* Media Query contacto */
