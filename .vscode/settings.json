@@ -1,6 +1,12 @@
 {
   "cSpell.words": [
+    "Contáctanos",
     "contenerdor",
-    "MYLKYWAY"
-  ]
+    "empoderada",
+    "Miaurwick",
+    "MYLKYWAY",
+    "Yeslenis"
+  ],
+  "files.autoSave": "afterDelay",
+  "editor.fontFamily": "'Cascadia Code', 'Cascadia Code PL', 'Cascadia Code Italic', Consolas, 'Courier New', monospace"
 }

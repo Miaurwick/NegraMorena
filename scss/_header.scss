@@ -18,8 +18,10 @@ header {
   .header--menu__menuH {
     transition: 200ms;
   }
-
+ 
   .header--nav {
+    display: $d;
+    justify-content: center;
      ul {
       display: flex;
       justify-content: center;

@@ -15,12 +15,15 @@ header .header--nav__icoNav {
 header .header--menu__menuH {
   transition: 200ms; }
 
-header .header--nav ul {
+header .header--nav {
   display: flex;
   justify-content: center; }
-  header .header--nav ul a:hover {
-    padding: 6px;
-    color: #e40ce4; }
+  header .header--nav ul {
+    display: flex;
+    justify-content: center; }
+    header .header--nav ul a:hover {
+      padding: 6px;
+      color: #e40ce4; }
 
 body {
   background-image: linear-gradient(180deg, #ffb8eb 0, #ffafe6 16.67%, #ffa7df 33.33%, #f29dd5 50%, #db93ca 66.67%, #c58bc0 83.33%, #b283b6 100%);
@@ -181,26 +184,16 @@ footer {
   margin-top: auto;
   border: none; }
   footer .footer--contenedor {
-    margin: 0px;
-    display: d; }
+    margin: 0px; }
   footer .footer--copyright .footer--copyright__texto {
     color: violet; }
   footer .footer--ico {
-    margin: 0px;
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    justify-items: center; }
-  footer .footer--ico {
-    margin: 0px;
-    display: flex;
-    position: relative;
-    top: -25px; }
+    justify-content: space-between; }
   footer i {
     font-size: 27px; }
 
+/* /Footer */
 /* Media Query contacto */
 @media screen and (max-width: 390px) {
   main .main--formulario--contacto-c .form {
